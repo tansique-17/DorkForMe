@@ -238,13 +238,13 @@ const Home = () => {
           Google Dorks Generator
         </h1>
         
-        <div className="mb-8">
+        <div className="mb-8 flex justify-center">
           <input
             type="text"
             value={domain}
             onChange={(e) => setDomain(e.target.value)}
-            placeholder="Enter domain (e.g., example.com)"
-            className="w-full bg-gray-800 border-2 border-green-500 text-white rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-400"
+            placeholder="Enter domain"
+            className="w-2/4 bg-gray-800 border-2 border-green-500 text-white rounded-lg px-5 py-3 focus:outline-none focus:ring-2 focus:ring-green-400"
           />
         </div>
 
