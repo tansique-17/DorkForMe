@@ -9,7 +9,7 @@ import AnimatedBackground from './components/AnimatedBackground';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="min-h-screen bg-transparent flex flex-col relative">
         <AnimatedBackground />
         <CursorTrail />
