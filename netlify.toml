@@ -10,8 +10,8 @@
   to = "/index.html"
   status = 200
 
+# Remove the Content-Type header override as it's causing issues
 [[headers]]
-  for = "/*"
+  for = "/assets/*"
     [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Content-Type = "text/javascript"
+    Cache-Control = "public, max-age=31536000, immutable"
