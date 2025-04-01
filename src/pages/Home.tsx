@@ -234,7 +234,7 @@ const Home = () => {
       )}
 
       <div className="max-w-[1920px] mx-auto">
-        <h1 className="text-4xl font-bold text-center text-green-400 mb-8">
+        <h1 className="text-6xl font-extrabold text-center text-green-400 mb-8">
           Dork For Me
         </h1>
         
