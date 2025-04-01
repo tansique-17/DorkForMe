@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col items-center space-y-4">
           <div className="flex space-x-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/tansique-17"
               target="_blank"
               rel="noopener noreferrer"
               className="text-yellow-400 hover:text-yellow-300 transform hover:scale-125 transition-all duration-300"
@@ -16,7 +16,7 @@ const Footer = () => {
               <Github className="h-8 w-8" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/tansique-dasari/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-yellow-400 hover:text-yellow-300 transform hover:scale-125 transition-all duration-300"
@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="flex items-center space-x-2">
             <span className="text-gray-400">Created by</span>
               <a
-                href="https://github.com/yourusername"
+                href="https://tansiqued.super.site"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-yellow-400 font-semibold hover:text-yellow-300 hover:scale-125 transition-all duration-300"
