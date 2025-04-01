@@ -235,7 +235,7 @@ const Home = () => {
 
       <div className="max-w-[1920px] mx-auto">
         <h1 className="text-4xl font-bold text-center text-green-400 mb-8">
-          Google Dorks Generator
+          Dork For Me
         </h1>
         
         <div className="mb-8 flex justify-center">
