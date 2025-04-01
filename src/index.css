@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+.cursor-trail {
+  @apply fixed pointer-events-none w-2 h-2 bg-green-400 rounded-full;
+  mix-blend-mode: screen;
+  transition: transform 0.1s linear;
+}
+
+.text-gold {
+  color: #FFD700;
+}
+
+.text-gold-600 {
+  color: #B8860B;
+}
+
+.animated-background {
+  @apply fixed inset-0 overflow-hidden pointer-events-none z-0;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.matrix-code {
+  @apply absolute top-0 text-green-500 opacity-0 whitespace-nowrap;
+  font-family: monospace;
+  font-size: 14px;
+  animation: matrix-fall linear infinite;
+}
+
+@keyframes matrix-fall {
+  0% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+@keyframes matrix-bg {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.toast-enter {
+  animation: slideIn 0.3s ease-out;
+}
+
+.content-container {
+  @apply relative z-10 backdrop-blur-sm bg-opacity-80;
+}
